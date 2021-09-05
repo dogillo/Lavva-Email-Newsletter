@@ -1,0 +1,90 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-class name="p-1" font-family="Roboto; font-style: normal; font-weight: normal" font-size="16px" line-height="21px" text-align="center" color="#006853" />
+      <mj-class name="p-2" font-family="Roboto; font-style: normal; font-weight: normal" font-size="14px" line-height="18px" text-align="center" color="#006853" />
+      <mj-class name="p-3" font-family="Roboto; font-style: normal; font-weight: normal" font-size="28px" line-height="36px" text-align="center" color="#006853" />
+      <mj-class name="p-4" font-family="Roboto; font-style: normal; font-weight: normal" font-size="10px" line-height="14px" text-align="center" color="#006853" />
+      <mj-class name="h-1" font-family="Roboto; font-style: normal; font-weight: 700" font-size="28px" line-height="36px" text-align="center" color="#006853" />
+      <mj-class name="h-2" font-family="Roboto; font-style: normal; font-weight: 700" font-size="24px" line-height="31px" text-align="center" color="#006853" />
+      <mj-class name="h-3" font-family="Roboto; font-style: normal; font-weight: 700" font-size="18px" line-height="23px" text-align="center" color="#006853" />
+      <mj-class name="h-4" font-family="Roboto; font-style: normal; font-weight: 700" font-size="24px" line-height="26px" text-align="center" color="#006853" />
+
+      <mj-class name="light-green" background="#E2FFF0" background-color="#E2FFF0" />
+      <mj-class name="light-brown" background="#F7F2ED" background-color="#F7F2ED" />
+      <mj-class name="dark-green" background="#006853" background-color="#006853" />
+
+      <mj-image padding="0" />
+      <mj-section padding="0" />
+      <mj-text padding="0" />
+      <mj-button background-color="#006853" height="52px" border-radius="50px" font-size="11px" line-height="12px" text-align="center" font-weight="normal" />
+      <mj-divider border-width="1px" border-style="solid" border-color="#005863" padding="10px 18px 27px 18px" />
+    </mj-attributes>
+
+    <mj-style>
+      @media (max-width:480px) {
+        body {
+          padding: 10px !important;
+        }
+
+        .lavva-box-padding table tbody tr td table tbody tr td {
+          padding-right: 0px !important;
+          padding-left: 0px !important;
+        }
+
+        .header table tbody tr td {
+          padding-right: 9px !important;
+          padding-left: 9px !important;
+        }
+
+        .offer div {
+          font-size: 16px !important;
+          font-weight: 700 !important;
+          line-height: 20.8px !important;
+        }
+
+        .offer div span:last-of-type {
+          display: block;
+        }
+
+        .footer div {
+          font-size: 14px !important;
+          line-height: 20px !important;
+        }
+
+        .footer div a {
+          display: block;
+          padding: 0 !important;
+        }
+
+        .recipe-img {
+          padding-right: 0px !important;
+          padding-left: 0px !important;
+        }
+
+        table {
+          margin: 0 auto;
+        }
+
+        .centered-button {
+          text-align: center;
+        }
+
+        .group {
+          width: 250px !important;
+        }
+      }
+    </mj-style>
+  </mj-head>
+
+
+  <mj-body width="650px" background-color="#f6f6f6">
+    <mj-section>
+      <mj-column>
+        <mj-image src="http://static.iterable.com/033fa65d4f964830b7cf8d6ebf276aab/16-11-07-header.png" alt="Green Chef" href="https://greenchef.com/?utm_source=Iterable&utm_content=73601&utm_campaign=subscription_confirmation&utm_medium=email" />
+
+        <mj-image src="http://static.iterable.com/033fa65d4f964830b7cf8d6ebf276aab/16-11-07-hero.png" alt="Green Chef" href="https://greenchef.com/?utm_source=Iterable&utm_content=73601&utm_campaign=subscription_confirmation&utm_medium=email" />
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
